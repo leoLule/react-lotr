@@ -1,0 +1,28 @@
+.button {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.nonSelectedButton {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+.selectedButton {
+    color: #0f172a;
+    background: white;
+}
+.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+/* .buttonContainer {
+    margin: 0 auto;
+} */

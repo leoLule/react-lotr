@@ -1,0 +1,6 @@
+.moviesDashboard {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 8px;
+}

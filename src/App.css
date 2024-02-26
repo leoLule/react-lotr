@@ -1,0 +1,46 @@
+/*  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.bg-image {
+    object-fit: cover;
+    inset: 0;
+    position: absolute;
+    width: 100vw;
+
+    /* play around what you like most */
+    overflow: hidden;
+    /* width: 100vw; */
+    height: 100vh;
+    z-index: 0;
+}
+header {
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'MedievalSharp', cursive;
+}
